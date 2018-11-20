@@ -14,8 +14,8 @@
 
 import { Injectable } from '@angular/core';
 import { CoreLoggerProvider } from '@providers/logger';
-import { CoreSitesProvider } from '@providers/sites';
-import { CoreConfigConstants } from '../../../../configconstants';
+import { CoreSitesProvider } from '@providers/site'
+ import { CoreConfigConstants } from '../../../configconstants';
 
 /**
  * Service to handle Airnotifier message output.
